@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Permite que se muestren correctamente las tildes y caracteres especiales -->
+  <meta charset="UTF-8">
+
+  <!-- Hace que la página se adapte correctamente a diferentes tamaños de pantalla -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título que aparecerá en la pestaña del navegador -->
+  <title>GestioX — Gestión de usuarios y permisos empresariales</title>
+
+  <!-- Descripción de la página -->
+  <meta
+    name="description"
+    content="GestioX permite a las empresas gestionar usuarios, roles y permisos desde una plataforma centralizada."
+  >
+</head>
+
+<body>
+
+  <!-- Enlace para saltar directamente al contenido principal.
+       Es útil para personas que navegan con teclado o lectores de pantalla. -->
+  <a href="#contenido">Saltar al contenido</a>
+
+  <!-- CABECERA -->
+  <header>
+
+    <!-- Todavía no usamos h1 porque el único h1 estará en el hero -->
+    <p><strong>GestioX</strong></p>
+
+    <!-- Menú principal de navegación -->
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#problema">El problema</a></li>
+        <li><a href="#funcionalidades">Funcionalidades</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#registro">Registro</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main id="contenido">
+
+    <!-- HERO / PRESENTACIÓN PRINCIPAL -->
+    <section id="inicio">
+
+      <!-- Este es el único h1 de toda la página -->
+      <h1>Gestiona los usuarios y permisos de tu empresa desde un solo lugar</h1>
+
+      <p>
+        GestioX ayuda a las empresas a organizar sus usuarios,
+        controlar sus roles y administrar los permisos de cada integrante
+        desde una plataforma centralizada.
+        <strong>Más control, menos desorden.</strong>
+      </p>
+
+      <!-- Como este enlace lleva a otra sección de la misma página,
+           usamos <a> y no <button> -->
+      <p>
+        <a href="#registro">Quiero conocer GestioX</a>
+      </p>
+
+    </section>
+
+
+    <!-- SECCIÓN DEL PROBLEMA -->
+    <section id="problema">
+
+      <h2>El problema</h2>
+
+      <p>
+        Muchas empresas comienzan gestionando sus usuarios y permisos
+        mediante hojas de cálculo, documentos o procesos manuales.
+        Cuando la cantidad de trabajadores aumenta, mantener esta
+        información organizada puede convertirse en un problema.
+      </p>
+
+      <!-- Lista de problemas concretos -->
+      <ul>
+        <li>Dificultad para saber qué permisos tiene cada usuario.</li>
+        <li>Información de trabajadores distribuida en diferentes documentos.</li>
+        <li>Riesgo de mantener activos usuarios que ya no deberían tener acceso.</li>
+      </ul>
+
+      <!-- blockquote sirve para representar una cita o información destacada -->
+      <blockquote>
+        <p>
+          La gestión adecuada de los accesos permite reducir riesgos
+          y mantener un mayor control sobre la información empresarial.
+        </p>
+
+        <footer>
+          <cite>Buenas prácticas de gestión de accesos</cite>
+        </footer>
+      </blockquote>
+
+    </section>
+
+
+    <!-- SECCIÓN DE FUNCIONALIDADES -->
+    <section id="funcionalidades">
+
+      <h2>Funcionalidades</h2>
+
+      <!-- Cada funcionalidad es un article porque puede entenderse
+           como un contenido independiente -->
+
+      <article>
+
+        <h3>Gestión de usuarios</h3>
+
+        <p>
+          Permite registrar, consultar, actualizar y administrar
+          los usuarios pertenecientes a la empresa.
+        </p>
+
+        <figure>
+
+          <!-- La imagen representa la funcionalidad.
+               En este caso usamos una imagen de ejemplo. -->
+          <img
+            src="https://picsum.photos/400/300?random=1"
+            alt="Vista de ejemplo de un sistema para gestionar usuarios empresariales"
+            width="400"
+            height="300"
+            loading="lazy"
+          >
+
+          <figcaption>
+            Administración de usuarios dentro de la plataforma.
+          </figcaption>
+
+        </figure>
+
+      </article>
+
+
+      <article>
+
+        <h3>Roles y permisos</h3>
+
+        <p>
+          Permite asignar diferentes niveles de acceso dependiendo
+          de las responsabilidades de cada integrante de la empresa.
+        </p>
+
+        <figure>
+
+          <img
+            src="https://picsum.photos/400/300?random=2"
+            alt="Vista de ejemplo de diferentes roles y permisos para usuarios"
+            width="400"
+            height="300"
+            loading="lazy"
+          >
+
+          <figcaption>
+            Organización de roles y permisos.
+          </figcaption>
+
+        </figure>
+
+      </article>
+
+
+      <article>
+
+        <h3>Control de información</h3>
+
+        <p>
+          Centraliza la información de los usuarios para facilitar
+          la consulta y actualización de los datos empresariales.
+        </p>
+
+        <figure>
+
+          <img
+            src="https://picsum.photos/400/300?random=3"
+            alt="Vista de ejemplo de información organizada de trabajadores"
+            width="400"
+            height="300"
+            loading="lazy"
+          >
+
+          <figcaption>
+            Información centralizada de los integrantes de la empresa.
+          </figcaption>
+
+        </figure>
+
+      </article>
+
+    </section>
+
+
+    <!-- SECCIÓN DEL EQUIPO -->
+    <section id="equipo">
+
+      <h2>Equipo</h2>
+
+      <!-- La tabla se utiliza para datos relacionados entre sí.
+           No se utiliza para maquetar la página. -->
+
+      <table>
+
+        <!-- Título descriptivo de la tabla -->
+        <caption>Roles y responsabilidades del equipo</caption>
+
+        <!-- Encabezados de las columnas -->
+        <thead>
+          <tr>
+            <th scope="col">Integrante</th>
+            <th scope="col">Rol</th>
+            <th scope="col">Responsabilidad</th>
+          </tr>
+        </thead>
+
+        <!-- Contenido de la tabla -->
+        <tbody>
+
+          <tr>
+            <th scope="row">Juan Pablo</th>
+            <td>Desarrollador</td>
+            <td>Desarrollo y mantenimiento del sistema</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Equipo de análisis</th>
+            <td>Análisis</td>
+            <td>Identificación de necesidades de la empresa</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Administrador</th>
+            <td>Gestión</td>
+            <td>Administración de usuarios y permisos</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </section>
+
+
+    <!-- SECCIÓN DE REGISTRO -->
+    <section id="registro">
+
+      <h2>Regístrate para conocer GestioX</h2>
+
+      <p>
+        Déjanos tus datos para conocer más sobre el proyecto
+        y recibir información sobre su desarrollo.
+      </p>
+
+
+      <!-- action="#" significa que actualmente no tenemos
+           un servidor que reciba los datos.
+           method="post" indica el método que utilizaríamos
+           para enviar la información posteriormente. -->
+
+      <form action="#" method="post">
+
+
+        <!-- Primer grupo de información -->
+        <fieldset>
+
+          <legend>Datos personales</legend>
+
+
+          <!-- Nombre -->
+          <p>
+
+            <label for="nombre">Nombre completo</label><br>
+
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              required
+              autocomplete="name"
+            >
+
+          </p>
+
+
+          <!-- Correo -->
+          <p>
+
+            <label for="correo">Correo electrónico</label><br>
+
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              required
+              placeholder="ejemplo@empresa.com"
+              autocomplete="email"
+            >
+
+          </p>
+
+
+          <!-- Teléfono -->
+          <p>
+
+            <label for="telefono">Teléfono</label><br>
+
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              pattern="[0-9]{10}"
+              title="Ingrese un número de 10 dígitos, sin espacios"
+              autocomplete="tel"
+            >
+
+          </p>
+
+
+          <!-- Cargo del usuario -->
+          <p>
+
+            <label for="cargo">Cargo dentro de la empresa</label><br>
+
+            <select id="cargo" name="cargo" required>
+
+              <option value="">Selecciona una opción</option>
+
+              <option value="administrador">
+                Administrador
+              </option>
+
+              <option value="jefe">
+                Jefe
+              </option>
+
+              <option value="trabajador">
+                Trabajador
+              </option>
+
+            </select>
+
+          </p>
+
+        </fieldset>
+
+
+        <!-- Segundo grupo: preferencias de contacto -->
+        <fieldset>
+
+          <legend>¿Cómo prefieres que te contactemos?</legend>
+
+
+          <!-- Los dos radio tienen el mismo name.
+               Por eso solamente uno puede seleccionarse. -->
+
+          <p>
+
+            <input
+              type="radio"
+              id="contacto-correo"
+              name="canal"
+              value="correo"
+              checked
+            >
+
+            <label for="contacto-correo">
+              Correo electrónico
+            </label>
+
+
+            <input
+              type="radio"
+              id="contacto-whatsapp"
+              name="canal"
+              value="whatsapp"
+            >
+
+            <label for="contacto-whatsapp">
+              WhatsApp
+            </label>
+
+          </p>
+
+        </fieldset>
+
+
+        <!-- Comentario -->
+        <p>
+
+          <label for="comentario">
+            ¿Qué problema de gestión de usuarios tiene actualmente tu empresa?
+          </label><br>
+
+          <textarea
+            id="comentario"
+            name="comentario"
+            rows="5"
+            cols="50"
+            maxlength="300"
+            placeholder="Cuéntanos brevemente..."
+          ></textarea>
+
+        </p>
+
+
+        <!-- Aceptación de términos -->
+        <p>
+
+          <input
+            type="checkbox"
+            id="terminos"
+            name="terminos"
+            required
+          >
+
+          <label for="terminos">
+            Acepto la política de tratamiento de datos
+          </label>
+
+        </p>
+
+
+        <!-- Botón que envía el formulario -->
+        <p>
+
+          <button type="submit">
+            Registrarme
+          </button>
+
+        </p>
+
+      </form>
+
+    </section>
+
+
+    <!-- RETO OPCIONAL: FAQ
+         <details> permite crear un contenido desplegable
+         sin utilizar JavaScript. -->
+
+    <section id="preguntas">
+
+      <h2>Preguntas frecuentes</h2>
+
+
+      <details>
+
+        <summary>
+          ¿Qué es GestioX?
+        </summary>
+
+        <p>
+          Es una propuesta de software para gestionar usuarios,
+          roles y permisos dentro de una empresa.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          ¿Qué diferencia existe entre un jefe y un trabajador?
+        </summary>
+
+        <p>
+          Cada tipo de usuario puede tener diferentes permisos
+          dependiendo de sus responsabilidades dentro de la empresa.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          ¿Quién puede administrar los usuarios?
+        </summary>
+
+        <p>
+          Los usuarios con permisos administrativos pueden crear,
+          modificar o desactivar otros usuarios.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          ¿Se pueden modificar los permisos?
+        </summary>
+
+        <p>
+          Sí. La propuesta contempla que los permisos puedan
+          adaptarse a las necesidades de cada empresa.
+        </p>
+
+      </details>
+
+    </section>
+
+  </main>
+
+<br>
+<a href="#contenido">Regresar al contenido</a>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+
+    <h2>Contacto</h2>
+
+    <!-- address está pensado para información de contacto -->
+    <address>
+
+      Escríbenos a
+      <a href="mailto:contacto@gestiox.com">
+        contacto@gestiox.com
+      </a>
+
+      <br>
+
+      Villavicencio, Meta, Colombia
+
+    </address>
+
+
+    <!-- Enlace externo al repositorio -->
+    <p>
+
+      <a
+        href="https://github.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Repositorio del proyecto
+      </a>
+
+    </p>
+    <!--Realmente no lleva a ningun repositorio solo lo puse pq si, pero lo uasre para un proyecto asi que si estara a futuro en uno-->
+
+    <!-- time permite marcar semánticamente una fecha -->
+    <p>
+
+      <small>
+        © <time datetime="2026">2026</time>
+        GestioX. Proyecto académico.
+      </small>
+
+    </p>
+
+  </footer>
+
+</body>
+</html>
+
+<!--Trabajo de formulario de Juan Pablo Novoa Rodriguez y Jhonny Poveda-->
